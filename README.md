@@ -27,11 +27,12 @@ Ele utiliza `HttpClient` para fazer requisições HTTP e a biblioteca `org.json`
 ---
 
 ## 📂 Estrutura do projeto
--ProjetoSistemaDeInformacoesClimaticasEmTempoReal/
--│── src/
--│ └── ProjetoSistemaDeInformacoesClimaticasEmTempoReal.java
--│── api-key.txt # arquivo contendo a chave da WeatherAPI
--│── README.md
+ProjetoSistemaDeInformacoesClimaticasEmTempoReal/
+│── src/
+│   └── ProjetoSistemaDeInformacoesClimaticasEmTempoReal.java
+│── api-key.txt          # arquivo contendo a chave da WeatherAPI
+│── README.md
+
 
 ---
 
@@ -59,7 +60,7 @@ Ele utiliza `HttpClient` para fazer requisições HTTP e a biblioteca `org.json`
 - Como trabalhar com JSON usando a biblioteca org.json.
 - Diferença entre requisições GET e POST.
 - Como lidar com acentos e codificação UTF-8 no Java.
-- Boas práticas para organizar projetos pequenos no GitHub.
+
 
 ---
 
