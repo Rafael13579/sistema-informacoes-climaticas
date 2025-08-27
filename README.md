@@ -19,7 +19,7 @@ Ele utiliza `HttpClient` para fazer requisições HTTP e a biblioteca `org.json`
 ---
 
 ## 🛠️ Tecnologias utilizadas
-- **Java 11+**
+- **Java 22**
 - **HttpClient** (para consumir a API)
 - **org.json** (para parsear o JSON)
 - **WeatherAPI** (fonte dos dados meteorológicos)
@@ -27,3 +27,49 @@ Ele utiliza `HttpClient` para fazer requisições HTTP e a biblioteca `org.json`
 ---
 
 ## 📂 Estrutura do projeto
+ProjetoSistemaDeInformacoesClimaticasEmTempoReal/
+│── src/
+│ └── ProjetoSistemaDeInformacoesClimaticasEmTempoReal.java
+│── api-key.txt # arquivo contendo a chave da WeatherAPI
+│── README.md
+
+---
+
+## ⚙️ Como rodar o projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/projeto-clima.git
+   cd projeto-clima
+   Configure a chave da API:
+
+2. **Configure a chave da API:**
+    - Crie uma conta gratuita em WeatherAPI
+    - Copie a chave gerada
+    - Salve a chave dentro de um arquivo chamado api-key.txt
+  
+3. **Compile e execute:**
+    - javac -cp ".;lib/json-20230227.jar" src/ProjetoSistemaDeInformacoesClimaticasEmTempoReal.java
+    - java -cp ".;lib/json-20230227.jar;src" ProjetoSistemaDeInformacoesClimaticasEmTempoReal
+  
+---
+
+## 📖 O que aprendi com este projeto
+- Como consumir APIs REST em Java usando HttpClient.
+- Como trabalhar com JSON usando a biblioteca org.json.
+- Diferença entre requisições GET e POST.
+- Como lidar com acentos e codificação UTF-8 no Java.
+- Boas práticas para organizar projetos pequenos no GitHub.
+
+---
+
+## 🔮 Possíveis melhorias futuras
+- Criar uma interface gráfica (JavaFX ou Swing).
+- Permitir salvar consultas anteriores em arquivo.
+- Implementar previsão para os próximos dias.
+- Criar versão em Spring Boot com API REST própria.
+
+
+
+✍️ Autor: Rafael Fernandes da Silva
+
