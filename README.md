@@ -28,11 +28,10 @@ Ele utiliza `HttpClient` para fazer requisições HTTP e a biblioteca `org.json`
 
 ## 📂 Estrutura do projeto
 ProjetoSistemaDeInformacoesClimaticasEmTempoReal/
-│── src/
+├── src/
 │   └── ProjetoSistemaDeInformacoesClimaticasEmTempoReal.java
-│── api-key.txt          # arquivo contendo a chave da WeatherAPI
-│── README.md
-
+├── api-key.txt          # arquivo contendo a chave da WeatherAPI (NÃO enviar ao GitHub)
+└── README.md
 
 ---
 
